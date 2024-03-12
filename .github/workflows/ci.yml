@@ -1,0 +1,22 @@
+on:
+  pull_request:
+
+jobs:
+  clippy:
+    name: Clippy
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+      - uses: sksat/action-clippy@main
+        if: github.event_name == 'push'
+        with:
+          reporter: github-check
+      - uses: sksat/action-clippy@main
+        if: github.event_name == 'pull_request'
+        with:
+          reporter: github-pr-review
