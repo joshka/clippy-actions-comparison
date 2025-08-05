@@ -6,19 +6,19 @@ running Clippy, the Rust linter. This document compares them based on their feat
 
 ## Actions
 
-| PR  | Action Name | Repository | Stars | Commit Activity | Last Commit | Description |
+| PR  | Action Name | Repository | Stars | Commit Activity | Last Commit | Notes |
 |-----|-------------|------------|-------|-----------------|-------------|-------------|
-| [#7] | [clippy-check][cc] | [LoliGothick/clippy-check][cc-repo] | ![cc-stars] | ![cc-commits] | ![cc-last] | Run clippy and annotate the diff with errors and warnings |
-| [#8] | [clippy-action][ca] | [auguwu/clippy-action][ca-repo] | ![ca-stars] | ![ca-commits] | ![ca-last] | 🐻‍❄️📦 GitHub action to run Clippy, an up-to-date and modern version of actions-rs/clippy |
-| [#9] | [rust-clippy-check][rcc] | [actions-rs/clippy-check][rcc-repo] | ![rcc-stars] | ![rcc-commits] | ![rcc-last] | Run clippy and annotate the diff with errors and warnings |
-| [#10] | [qs-rust-clippy][qrc] | [qernal/github-actions-rust-clippy][qrc-repo] | ![qrc-stars] | ![qrc-commits] | ![qrc-last] | Rust Clippy (linter) |
-| [#11] | [rust-clippy-reborn][rcr] | [crusty-pie/clippy][rcr-repo] | ![rcr-stars] | ![rcr-commits] | ![rcr-last] | Run clippy and annotate the diff with errors and warnings |
-| [#12] | [apply-clippy-lints][acl] | [fxwiegand/apply-clippy-lints][acl-repo] | ![acl-stars] | ![acl-commits] | ![acl-last] | Let apply-clippy-lints automatically apply the latest clippy lints to your project |
-| [#13] | [hamirmahal-clippy-check][hcc] | [hamirmahal/clippy-check][hcc-repo] | ![hcc-stars] | ![hcc-commits] | ![hcc-last] | Run clippy and annotate the diff with errors and warnings |
-| [#14] | [clippy-with-reviewdog][cwr] | [sksat/action-clippy][cwr-repo] | ![cwr-stars] | ![cwr-commits] | ![cwr-last] | run clippy with reviewdog |
-| [#15] | [rs-clippy-check][rscc] | [clechasseur/rs-clippy-check][rscc-repo] | ![rscc-stars] | ![rscc-commits] | ![rscc-last] | Run clippy and annotate the diff with errors and warnings |
-| [#16] | [run-clippy-with-reviewdog][rcwr] | [giraffate/clippy-action][rcwr-repo] | ![rcwr-stars] | ![rcwr-commits] | ![rcwr-last] | 🐶 Run Clippy with reviewdog on pull requests to improve code review experience |
+| [#9] | [rust-clippy-check][rcc] | [actions-rs/clippy-check][rcc-repo] | ![rcc-stars] | ![rcc-commits] | ![rcc-last] | Original action - archived Oct 2023 |
 | [#17] | [actions-rs-plus-clippy-check][arscc] | [actions-rs-plus/clippy-check][arscc-repo] | ![arscc-stars] | ![arscc-commits] | ![arscc-last] | Run clippy and annotate the diff with errors and warnings |
+| [#7] | [clippy-check][cc] | [LoliGothick/clippy-check][cc-repo] | ![cc-stars] | ![cc-commits] | ![cc-last] | Run clippy and annotate the diff with errors and warnings |
+| [#15] | [rs-clippy-check][rscc] | [clechasseur/rs-clippy-check][rscc-repo] | ![rscc-stars] | ![rscc-commits] | ![rscc-last] | Run clippy and annotate the diff with errors and warnings |
+| [#11] | [rust-clippy-reborn][rcr] | [crusty-pie/clippy][rcr-repo] | ![rcr-stars] | ![rcr-commits] | ![rcr-last] | Run clippy and annotate the diff with errors and warnings |
+| [#13] | [hamirmahal-clippy-check][hcc] | [hamirmahal/clippy-check][hcc-repo] | ![hcc-stars] | ![hcc-commits] | ![hcc-last] | Run clippy and annotate the diff with errors and warnings |
+| [#8] | [clippy-action][ca] | [auguwu/clippy-action][ca-repo] | ![ca-stars] | ![ca-commits] | ![ca-last] | 🐻‍❄️📦 GitHub action to run Clippy, an up-to-date and modern version of actions-rs/clippy |
+| [#12] | [apply-clippy-lints][acl] | [fxwiegand/apply-clippy-lints][acl-repo] | ![acl-stars] | ![acl-commits] | ![acl-last] | Let apply-clippy-lints automatically apply the latest clippy lints to your project |
+| [#10] | [qs-rust-clippy][qrc] | [qernal/github-actions-rust-clippy][qrc-repo] | ![qrc-stars] | ![qrc-commits] | ![qrc-last] | Rust Clippy (linter) |
+| [#14] | [clippy-with-reviewdog][cwr] | [sksat/action-clippy][cwr-repo] | ![cwr-stars] | ![cwr-commits] | ![cwr-last] | run clippy with reviewdog |
+| [#16] | [run-clippy-with-reviewdog][rcwr] | [giraffate/clippy-action][rcwr-repo] | ![rcwr-stars] | ![rcwr-commits] | ![rcwr-last] | 🐶 Run Clippy with reviewdog on pull requests to improve code review experience |
 
 **Not relevant results (appear in search but not clippy-focused):**
 
