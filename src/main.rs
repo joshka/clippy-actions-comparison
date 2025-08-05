@@ -8,4 +8,8 @@ fn main() {
     // clippy::assertions_on_constants
     // <https://rust-lang.github.io/rust-clippy/stable/index.html#/assertions_on_constants>
     assert!(false);
+
+    // clippy::approx_constant
+    // <https://rust-lang.github.io/rust-clippy/stable/index.html#/approx_constant>
+    let x = 3.14;
 }
